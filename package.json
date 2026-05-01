@@ -1,0 +1,30 @@
+{
+  "name": "@open-ai-civic/incident-to-playbook",
+  "version": "1.0.0",
+  "description": "Turn AI incident reports into concrete mitigation playbooks. AI incident writeups often stop at narrative, leaving teams without reusable controls, tests, owners, and deadlines.",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "incident-to-playbook": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node test/smoke.js"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "open-source",
+    "governance",
+    "safety",
+    "incident-to-playbook"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/incident-to-playbook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/incident-to-playbook/issues"
+  },
+  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/incident-to-playbook/"
+}
