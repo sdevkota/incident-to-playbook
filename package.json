@@ -21,10 +21,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/incident-to-playbook.git"
+    "url": "https://github.com/sdevkota/incident-to-playbook.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/incident-to-playbook/issues"
+    "url": "https://github.com/sdevkota/incident-to-playbook/issues"
   },
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/incident-to-playbook/"
+  "homepage": "https://sdevkota.github.io/incident-to-playbook/"
 }
