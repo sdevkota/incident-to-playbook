@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "incident-to-playbook"
+version = "2.0.0"
+description = "Turn AI incident reports into concrete mitigation playbooks."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Incident To Playbook contributors" }]
+keywords = ["ai", "agents", "governance", "safety", "open-source"]
+
+[project.scripts]
+"incident-to-playbook" = "incident_to_playbook.cli:main"
+
+[project.urls]
+Homepage = "https://sdevkota.github.io/incident-to-playbook/"
+Repository = "https://github.com/sdevkota/incident-to-playbook"
+Issues = "https://github.com/sdevkota/incident-to-playbook/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
